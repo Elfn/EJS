@@ -1,0 +1,14 @@
+First commands
+> npm init -y // to auto create package.json with predefined questions
+> npm install --save express body-parser cors ejs 
+>
+
+
+--Pass value to ejs
+<!-- <h1>Hello world <%= val %>!</h1> -->
+ <!-- <img src="<%= val %>" alt=""> 
+ <a href="/<%= val.id %>/destroy" >Delete</a> -->
+
+ <%- include('index') %>
+    <br>
+    <%- include('part/onePart') %>
